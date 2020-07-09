@@ -13,6 +13,10 @@
 		9582762A24B6909F00035919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9582762824B6909F00035919 /* Main.storyboard */; };
 		9582762C24B690A300035919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9582762B24B690A300035919 /* Assets.xcassets */; };
 		9582762F24B690A300035919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9582762D24B690A300035919 /* LaunchScreen.storyboard */; };
+		9582763824B692B500035919 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582763724B692B500035919 /* CollectionTableViewCell.swift */; };
+		9582763A24B692CF00035919 /* TableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582763924B692CF00035919 /* TableCollectionViewCell.swift */; };
+		9582763C24B69A0000035919 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582763B24B69A0000035919 /* Model.swift */; };
+		9582763F24B6D1D700035919 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9582763E24B6CF8000035919 /* test.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9582762B24B690A300035919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9582762E24B690A300035919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9582763024B690A300035919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9582763724B692B500035919 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		9582763924B692CF00035919 /* TableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewCell.swift; sourceTree = "<group>"; };
+		9582763B24B69A0000035919 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9582763E24B6CF8000035919 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		9582762124B6909F00035919 /* TableViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				9582763624B6928A00035919 /* Cells */,
+				9582762624B6909F00035919 /* ViewController.swift */,
 				9582762224B6909F00035919 /* AppDelegate.swift */,
 				9582762424B6909F00035919 /* SceneDelegate.swift */,
-				9582762624B6909F00035919 /* ViewController.swift */,
 				9582762824B6909F00035919 /* Main.storyboard */,
 				9582762B24B690A300035919 /* Assets.xcassets */,
+				9582763E24B6CF8000035919 /* test.mp4 */,
 				9582762D24B690A300035919 /* LaunchScreen.storyboard */,
 				9582763024B690A300035919 /* Info.plist */,
+				9582763B24B69A0000035919 /* Model.swift */,
 			);
 			path = TableViewTest;
+			sourceTree = "<group>";
+		};
+		9582763624B6928A00035919 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9582763724B692B500035919 /* CollectionTableViewCell.swift */,
+				9582763924B692CF00035919 /* TableCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9582763F24B6D1D700035919 /* test.mp4 in Resources */,
 				9582762F24B690A300035919 /* LaunchScreen.storyboard in Resources */,
 				9582762C24B690A300035919 /* Assets.xcassets in Resources */,
 				9582762A24B6909F00035919 /* Main.storyboard in Resources */,
@@ -141,6 +162,9 @@
 				9582762724B6909F00035919 /* ViewController.swift in Sources */,
 				9582762324B6909F00035919 /* AppDelegate.swift in Sources */,
 				9582762524B6909F00035919 /* SceneDelegate.swift in Sources */,
+				9582763C24B69A0000035919 /* Model.swift in Sources */,
+				9582763A24B692CF00035919 /* TableCollectionViewCell.swift in Sources */,
+				9582763824B692B500035919 /* CollectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
